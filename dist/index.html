@@ -20,6 +20,8 @@
 			<div id="name"></div>
 		</div>
 
+		<div id="fancy">Brought to you by <a href="http://fancysupport.com">fancysupport.com</a></div>
+
 		<script type="text/javascript">
 			var get_name = function() {
 				// pick one from the array
@@ -94,7 +96,7 @@
 					"Demanding",
 					"Determined",
 					"Devout",
-					"Dewy-eyed",
+					"Dewy-Eyed",
 					"Disagreeable",
 					"Disgruntled",
 					"Dreamer",
@@ -106,7 +108,7 @@
 					"Embarrassed",
 					"Energetic",
 					"Enigmatic",
-					"Ever-loving, Blue-eyed",
+					"Ever-Loving, Blue-Eyed",
 					"Excessive",
 					"Excited",
 					"Expert",
@@ -123,7 +125,7 @@
 					"Friendly",
 					"Friendly, Neighborhood",
 					"Frustrated",
-					"Fun-loving",
+					"Fun-Loving",
 					"Funny",
 					"Gallant",
 					"Generous",
@@ -136,10 +138,10 @@
 					"Grouchy",
 					"Handsome",
 					"Happy",
-					"Hard-working",
+					"Hard-Working",
 					"Helpful",
 					"Heroic",
-					"Hodded",
+					"Hooded",
 					"Holy",
 					"Honest",
 					"Hopeful",
@@ -172,7 +174,7 @@
 					"Lazy",
 					"Leader",
 					"Light",
-					"Light-hearted",
+					"Light-Hearted",
 					"Likeable",
 					"Lively",
 					"Lovable",
@@ -242,8 +244,8 @@
 					"Sarcastic",
 					"Savage",
 					"Scrumtrilescent",
-					"Self-confident",
-					"Self-conscious",
+					"Self-Confident",
+					"Self-Conscious",
 					"Selfish",
 					"Sensational",
 					"Sensible",
@@ -253,7 +255,7 @@
 					"Shy",
 					"Silly",
 					"Simple",
-					"Simple-minded",
+					"Simple-Minded",
 					"Smart",
 					"Sophisticated",
 					"Spectacular",
@@ -266,7 +268,7 @@
 					"Stupendous",
 					"Sublime",
 					"Successful",
-					"Super-intelligent",
+					"Super-Intelligent",
 					"Superlative",
 					"Tall",
 					"Tantalizing",
@@ -277,7 +279,7 @@
 					"Timid",
 					"Tireless",
 					"Tolerant",
-					"Tone-deaf",
+					"Tone-Deaf",
 					"Tough",
 					"Tricky",
 					"Trusting",
@@ -376,6 +378,9 @@
 			button.addEventListener('click', function() {
 				document.getElementById('name').innerHTML = get_name();
 			});
+
+			// do one on page load
+			document.getElementById('name').innerHTML = get_name();
 		</script>
 	</body>
 </html>
